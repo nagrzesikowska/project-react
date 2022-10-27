@@ -5,9 +5,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>Hello</p>
+        Link to github
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/nagrzesikowska/project-react"
           target="_blank"
           rel="noopener noreferrer"
         >
