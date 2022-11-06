@@ -7,6 +7,7 @@ export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
 
   function handleResponse(response) {
+    console.log(response.data);
     setWeatherData({
       ready: true,
       coordinates: response.data.coord,
@@ -50,7 +51,9 @@ export default function Weather(props) {
 
         <h1>Lisbon</h1>
         <ul>
-          <li>Friday 8:00</li>
+          <li>
+            <formattedDate date={weatherData.date} />
+          </li>
           <li>Sunny</li>
         </ul>
 
@@ -74,6 +77,6 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return "Loading...";
+    return Weather;
   }
 }
