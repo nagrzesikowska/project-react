@@ -28,16 +28,19 @@
   list-style: none;
   margin-top: 10px;
 }
-.Weather img {
+.Weather icon {
   height: 64px;
-  float: left;
+
   margin-right: 10px;
   padding-bottom: 5px;
+  display: inline-block;
 }
 .Weather .temperature {
   font-weight: bold;
   font-size: 60px;
   font-weight: 400;
+  margin-left: 60px;
+  margin-top: 100px;
 }
 .Weather .unit {
   font-size: 15px;
