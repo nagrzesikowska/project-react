@@ -12,6 +12,7 @@ function App() {
             href="https://github.com/nagrzesikowska/project-react"
             target="_blank"
             rel="noopener noreferrer"
+            className="source"
           >
             {" "}
             open-sourced on Github
